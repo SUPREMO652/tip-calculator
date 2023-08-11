@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    border: solid;
+    width: 700px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: burlywood;
+}
+
+body{
+    margin-left: 300px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 700px;
+}
+
+.grid{
+    display: grid;
+    height: 40vh;
+    width: 50%;
+}
+
+.flex_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 50px;
+    background-color: aqua;
+    height: 5vh;
+}
+
+.tip{
+    width: 50px;
+    height: 5vh;
+    background-color: aqua;
+}
+.image_one{
+    width: 80px;
+    height: 5vh;
+}
+
+.grid_one{
+    width: 50px;
+    height: 5vh;
+    background-color: aqua;
+}
+
+.grid_two{
+    width: 50px;
+    height: 5vh;
+    background-color: aqua;
+}
+
+.grid_three{
+    width: 50px;
+    height: 5vh;
+    background-color: aqua;
+}
+
+.table{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table_one{
+    text-align: end;
+    justify-content: end;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.book{
+    display: grid;
+    border: solid;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.note{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        display: flex;
+    }
+}
